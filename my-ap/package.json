@@ -1,25 +1,36 @@
 {
   "name": "my-ap",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "version": "1.0.0",
+  "main": "index.ts",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "t1:b1": "expo start Tuan1/bai01_tuan01 --web",
+    "t1:b2": "expo start Tuan1/bai02_tuan01 --web",
+    "t1:b3": "expo start Tuan1/bai03_tuan01 --web",
+    "t1:b4": "expo start Tuan1/bai04_tuan01 --web",
+    "t1:b5": "expo start Tuan1/bai05_tuan01 --web",
+    "t1:b6": "expo start Tuan1/bai06_tuan01 --web",
+    "t1:b7": "expo start Tuan1/bai07_tuan01 --web",
+    "t1:b8": "expo start Tuan1/bai08_tuan01 --web",
+    "t2:b1": "expo start Tuan2/bai01_tuan02 --web",
+    "t2:b2": "expo start Tuan2/bai02_tuan02 --web",
+    "t2:b3": "expo start Tuan2/bai03_tuan02 --web",
+    "t2:b4": "expo start Tuan2/bai04_tuan02 --web",
+    "t2:b5": "expo start Tuan2/bai05_tuan02 --web"
   },
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
+    "@expo/metro-runtime": "~4.0.1",
+    "expo": "~52.0.0",
+    "expo-asset": "^57.0.15",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native": "0.76.7",
+    "react-native-web": "^0.19.13"
   },
   "devDependencies": {
-    "@types/node": "^24.13.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.1.0",
-    "oxlint": "^1.79.0",
-    "typescript": "~6.0.2",
-    "vite": "^8.2.2"
-  }
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12",
+    "typescript": "^5.3.3"
+  },
+  "private": true
 }

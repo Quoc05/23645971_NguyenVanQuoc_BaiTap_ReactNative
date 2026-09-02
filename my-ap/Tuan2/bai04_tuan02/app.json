@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "bai04_tuan02",
+    "slug": "bai04_tuan02",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
